@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A iOS router for swift by MGJRouter.
                        DESC
 
-  s.homepage         = 'https://github.com/youlongfeixue/SKRouterSwift'
+  s.homepage         = 'https://github.com/youlongfeixue/SKRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'youlongfeixue' => 'youlongfeixue@sina.com' }
-  s.source           = { :git => 'https://github.com/youlongfeixue/SKRouterSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/youlongfeixue/SKRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

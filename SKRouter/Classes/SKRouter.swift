@@ -16,6 +16,8 @@ public class SKRouter {
         
     }
 
-
+    class func test() {
+        
+    }
 
 }

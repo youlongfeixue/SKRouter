@@ -10,12 +10,12 @@
 		125F6DAFA9FDCAAA422A2410E7BAC596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3DD07D69FE5BB164A6FEFB010CC45D06 /* Pods-SKRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1E00F4FDFB0456652810839A412AB3 /* Pods-SKRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48C2FF9EE9F54D88B49D91D593F31044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		49EC5ACBE7DA772EDCB9754F6B69ECC7 /* SKRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EC6B7BA0E8A3D288A90598A1BCC42E /* SKRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77B543AE2A1215B6000C8BEF /* SKRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B543AD2A1215B6000C8BEF /* SKRouter.swift */; };
+		49EC5ACBE7DA772EDCB9754F6B69ECC7 /* SKRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DE074EE66DDC5BB4BC607C9934CFE4 /* SKRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7871494914D95B65E87F98AA920EA8A0 /* Pods-SKRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546F67D98D6D87EA68ABB77A4B5A2E2 /* Pods-SKRouter_Example-dummy.m */; };
 		C4A008A7E26F70E3514033EF2167691B /* Pods-SKRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2F237D330BAAE8B633809280C68EC /* Pods-SKRouter_Tests-dummy.m */; };
-		CB03FA8A91B1ACEB8A34CA1C7D1655B5 /* SKRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1564A3AAF33064AA8CB471F2668686 /* SKRouter-dummy.m */; };
+		CC6548B12453D60EB54D855486B51D0E /* SKRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AACD5437377242537E002FBE41CBD1 /* SKRouter-dummy.m */; };
 		D4952F7543D38F288F8AF217F79E3F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E35F62FCC3F0EA0765AEE50E2B8DC422 /* SKRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517CA652B8A8D293F6613DE7A1289A3 /* SKRouter.swift */; };
 		E99618FD6B7BE0806885C79D7C8EA1EC /* Pods-SKRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B3B17F67C61E981D32B2758D482AA8 /* Pods-SKRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,37 +38,37 @@
 
 /* Begin PBXFileReference section */
 		0182E3EFDB6E6B3291E4177A0AC1977A /* Pods-SKRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		05EC6B7BA0E8A3D288A90598A1BCC42E /* SKRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKRouter-umbrella.h"; sourceTree = "<group>"; };
 		0ED12D68FE88F21FFFE5C8C9E03A1F4B /* Pods-SKRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		11B3B17F67C61E981D32B2758D482AA8 /* Pods-SKRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		19AACD5437377242537E002FBE41CBD1 /* SKRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKRouter-dummy.m"; sourceTree = "<group>"; };
 		1EF3F78374127A59CCA0BE4077956D18 /* Pods-SKRouter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKRouter_Example"; path = Pods_SKRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DE074EE66DDC5BB4BC607C9934CFE4 /* SKRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKRouter-umbrella.h"; sourceTree = "<group>"; };
 		2B72176B675BFCF67C5558B635A831DC /* Pods-SKRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		30A5732815367624CC69B4D43DA827FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		343A687826CA1C1933024C82DD18607C /* Pods-SKRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38118B36A64C6BAE2C57492A90653439 /* Pods-SKRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4517CA652B8A8D293F6613DE7A1289A3 /* SKRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKRouter.swift; path = SKRouter/Classes/SKRouter.swift; sourceTree = "<group>"; };
 		4546F67D98D6D87EA68ABB77A4B5A2E2 /* Pods-SKRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		491A2AF9F1D009D6E04BE48BFA0FDE62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		54352161749570C5327D9041054503C0 /* SKRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKRouter-Info.plist"; sourceTree = "<group>"; };
 		54B2F237D330BAAE8B633809280C68EC /* Pods-SKRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKRouter_Tests-dummy.m"; sourceTree = "<group>"; };
-		5AB0591B8CB8B79286F842DBABB3D5EE /* SKRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKRouter.modulemap; sourceTree = "<group>"; };
 		5D6791EE3162FD29B998B7DD219100DF /* Pods-SKRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		5E648FFFE1BA7010364F13E81DC45F30 /* SKRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKRouter.debug.xcconfig; sourceTree = "<group>"; };
 		6CB1903CA8BD232533595F8FE14D7DAF /* Pods-SKRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7264CE8543471664B8B6EB3B597545A7 /* SKRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKRouter.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74C427E0B3CF152502A4E72B8E35D8FB /* SKRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKRouter-prefix.pch"; sourceTree = "<group>"; };
-		77B543AD2A1215B6000C8BEF /* SKRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKRouter.swift; path = SKRouter/Classes/SKRouter.swift; sourceTree = "<group>"; };
 		7A1E00F4FDFB0456652810839A412AB3 /* Pods-SKRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		80D6168B340328573245439E98AC5E6A /* SKRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKRouter-Info.plist"; sourceTree = "<group>"; };
 		919C439AA81CA570D3A69388DF9BF61F /* Pods-SKRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKRouter_Example-Info.plist"; sourceTree = "<group>"; };
 		99247A07DA5ABC4D48E10B39CF2FB512 /* SKRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKRouter; path = SKRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DD9DE05760F344FC0DB8E7C4BCB9D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A3D97BF1C1C3FC954FE8D9B78FD6289D /* Pods-SKRouter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKRouter_Tests"; path = Pods_SKRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC1564A3AAF33064AA8CB471F2668686 /* SKRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKRouter-dummy.m"; sourceTree = "<group>"; };
+		ADCC685434BE4A531ED1F0B890C0603A /* SKRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKRouter.modulemap; sourceTree = "<group>"; };
+		BA9E65311A4B3CE37E0D6403A19D6EAE /* SKRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C22D0C42DC099A7902784C85EFC2724A /* Pods-SKRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C57DFD36D1A53270205716A3614B1B00 /* SKRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKRouter-prefix.pch"; sourceTree = "<group>"; };
 		C58D45E8DAE2B886F07092B766E11343 /* Pods-SKRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C811ECD8BA677D5E37D365AFD60D1BD2 /* Pods-SKRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKRouter_Example.modulemap"; sourceTree = "<group>"; };
-		DD9A8B017FCB19588D8E8D719B953800 /* SKRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKRouter.release.xcconfig; sourceTree = "<group>"; };
-		E0083083C21E1781AED000C7E32468EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E5A4A9C167416768AFAD25D8D7E7E29A /* SKRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SKRouter.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		F12EF3E479EDFB0DDA1E830ED5A94D69 /* Pods-SKRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKRouter_Tests-Info.plist"; sourceTree = "<group>"; };
-		FB75DEAD194ED5D08B921E049B2D5C2F /* SKRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKRouter.debug.xcconfig; sourceTree = "<group>"; };
 		FD5D8063B06445AF126E3F30925747D8 /* Pods-SKRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,48 +100,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1890C21B93F0C171D2D8D53C8440DDC1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				491A2AF9F1D009D6E04BE48BFA0FDE62 /* LICENSE */,
-				E0083083C21E1781AED000C7E32468EA /* README.md */,
-				E5A4A9C167416768AFAD25D8D7E7E29A /* SKRouter.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		30946D072B12677CD5D2286C6FBC4213 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				33AAAC218AA3379ACFF45BD75BEC2F4E /* SKRouter */,
+				52CFA072366507780D2EB338D2E445F3 /* SKRouter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		33AAAC218AA3379ACFF45BD75BEC2F4E /* SKRouter */ = {
+		436FB035F2548A7F076CD75365C09A0F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				77B543AD2A1215B6000C8BEF /* SKRouter.swift */,
-				1890C21B93F0C171D2D8D53C8440DDC1 /* Pod */,
-				506651C2D85BC2CB2C25C2B942C7CCD7 /* Support Files */,
+				30A5732815367624CC69B4D43DA827FF /* LICENSE */,
+				A0DD9DE05760F344FC0DB8E7C4BCB9D5 /* README.md */,
+				BA9E65311A4B3CE37E0D6403A19D6EAE /* SKRouter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		52CFA072366507780D2EB338D2E445F3 /* SKRouter */ = {
+			isa = PBXGroup;
+			children = (
+				4517CA652B8A8D293F6613DE7A1289A3 /* SKRouter.swift */,
+				436FB035F2548A7F076CD75365C09A0F /* Pod */,
+				A9DDBF289CC393302AA3753362DF1E53 /* Support Files */,
 			);
 			name = SKRouter;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		506651C2D85BC2CB2C25C2B942C7CCD7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5AB0591B8CB8B79286F842DBABB3D5EE /* SKRouter.modulemap */,
-				BC1564A3AAF33064AA8CB471F2668686 /* SKRouter-dummy.m */,
-				80D6168B340328573245439E98AC5E6A /* SKRouter-Info.plist */,
-				74C427E0B3CF152502A4E72B8E35D8FB /* SKRouter-prefix.pch */,
-				05EC6B7BA0E8A3D288A90598A1BCC42E /* SKRouter-umbrella.h */,
-				FB75DEAD194ED5D08B921E049B2D5C2F /* SKRouter.debug.xcconfig */,
-				DD9A8B017FCB19588D8E8D719B953800 /* SKRouter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SKRouter";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -185,6 +170,21 @@
 			);
 			name = "Pods-SKRouter_Tests";
 			path = "Target Support Files/Pods-SKRouter_Tests";
+			sourceTree = "<group>";
+		};
+		A9DDBF289CC393302AA3753362DF1E53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADCC685434BE4A531ED1F0B890C0603A /* SKRouter.modulemap */,
+				19AACD5437377242537E002FBE41CBD1 /* SKRouter-dummy.m */,
+				54352161749570C5327D9041054503C0 /* SKRouter-Info.plist */,
+				C57DFD36D1A53270205716A3614B1B00 /* SKRouter-prefix.pch */,
+				20DE074EE66DDC5BB4BC607C9934CFE4 /* SKRouter-umbrella.h */,
+				5E648FFFE1BA7010364F13E81DC45F30 /* SKRouter.debug.xcconfig */,
+				7264CE8543471664B8B6EB3B597545A7 /* SKRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKRouter";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -277,7 +277,7 @@
 			buildConfigurationList = 0B4589FB1A077B11715084F042B0F35B /* Build configuration list for PBXNativeTarget "SKRouter" */;
 			buildPhases = (
 				EB8FEA1140613B104A091188C6B6275D /* Headers */,
-				E7EAE0B5568637CB6FCC10EEEBD3D1B0 /* Sources */,
+				ECE89C26CEFD4211BB2B5A54F8F896DE /* Sources */,
 				891991E86DEEDCFE335F7B7105C4D7E3 /* Frameworks */,
 				CA032DC9F81EF62B82A6A46C33B9E0DA /* Resources */,
 			);
@@ -371,20 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7EAE0B5568637CB6FCC10EEEBD3D1B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77B543AE2A1215B6000C8BEF /* SKRouter.swift in Sources */,
-				CB03FA8A91B1ACEB8A34CA1C7D1655B5 /* SKRouter-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E9B7DD42AF9DC4BF212E5F5B6FABF68F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7871494914D95B65E87F98AA920EA8A0 /* Pods-SKRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE89C26CEFD4211BB2B5A54F8F896DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35F62FCC3F0EA0765AEE50E2B8DC422 /* SKRouter.swift in Sources */,
+				CC6548B12453D60EB54D855486B51D0E /* SKRouter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +408,7 @@
 /* Begin XCBuildConfiguration section */
 		5106ED61DB4DB119E88698E3C041F2EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD9A8B017FCB19588D8E8D719B953800 /* SKRouter.release.xcconfig */;
+			baseConfigurationReference = 7264CE8543471664B8B6EB3B597545A7 /* SKRouter.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -526,7 +526,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -568,7 +569,7 @@
 		};
 		B8E8A8D389A12DD7509EE8EA3FDB03F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB75DEAD194ED5D08B921E049B2D5C2F /* SKRouter.debug.xcconfig */;
+			baseConfigurationReference = 5E648FFFE1BA7010364F13E81DC45F30 /* SKRouter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
