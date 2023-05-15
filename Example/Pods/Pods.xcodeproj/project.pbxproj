@@ -11,7 +11,7 @@
 		3DD07D69FE5BB164A6FEFB010CC45D06 /* Pods-SKRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1E00F4FDFB0456652810839A412AB3 /* Pods-SKRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48C2FF9EE9F54D88B49D91D593F31044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		49EC5ACBE7DA772EDCB9754F6B69ECC7 /* SKRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EC6B7BA0E8A3D288A90598A1BCC42E /* SKRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54A2EB6EE60B6DEAD79ACBDC808441E6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C635C4B4EA8B9396E6DA570D273AA8B /* ReplaceMe.swift */; };
+		77B543AE2A1215B6000C8BEF /* SKRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B543AD2A1215B6000C8BEF /* SKRouter.swift */; };
 		7871494914D95B65E87F98AA920EA8A0 /* Pods-SKRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546F67D98D6D87EA68ABB77A4B5A2E2 /* Pods-SKRouter_Example-dummy.m */; };
 		C4A008A7E26F70E3514033EF2167691B /* Pods-SKRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2F237D330BAAE8B633809280C68EC /* Pods-SKRouter_Tests-dummy.m */; };
 		CB03FA8A91B1ACEB8A34CA1C7D1655B5 /* SKRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1564A3AAF33064AA8CB471F2668686 /* SKRouter-dummy.m */; };
@@ -50,10 +50,10 @@
 		54B2F237D330BAAE8B633809280C68EC /* Pods-SKRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKRouter_Tests-dummy.m"; sourceTree = "<group>"; };
 		5AB0591B8CB8B79286F842DBABB3D5EE /* SKRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKRouter.modulemap; sourceTree = "<group>"; };
 		5D6791EE3162FD29B998B7DD219100DF /* Pods-SKRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKRouter_Tests.modulemap"; sourceTree = "<group>"; };
-		6C635C4B4EA8B9396E6DA570D273AA8B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SKRouter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6CB1903CA8BD232533595F8FE14D7DAF /* Pods-SKRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74C427E0B3CF152502A4E72B8E35D8FB /* SKRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKRouter-prefix.pch"; sourceTree = "<group>"; };
+		77B543AD2A1215B6000C8BEF /* SKRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKRouter.swift; path = SKRouter/Classes/SKRouter.swift; sourceTree = "<group>"; };
 		7A1E00F4FDFB0456652810839A412AB3 /* Pods-SKRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKRouter_Example-umbrella.h"; sourceTree = "<group>"; };
 		80D6168B340328573245439E98AC5E6A /* SKRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKRouter-Info.plist"; sourceTree = "<group>"; };
 		919C439AA81CA570D3A69388DF9BF61F /* Pods-SKRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKRouter_Example-Info.plist"; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		33AAAC218AA3379ACFF45BD75BEC2F4E /* SKRouter */ = {
 			isa = PBXGroup;
 			children = (
-				6C635C4B4EA8B9396E6DA570D273AA8B /* ReplaceMe.swift */,
+				77B543AD2A1215B6000C8BEF /* SKRouter.swift */,
 				1890C21B93F0C171D2D8D53C8440DDC1 /* Pod */,
 				506651C2D85BC2CB2C25C2B942C7CCD7 /* Support Files */,
 			);
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A2EB6EE60B6DEAD79ACBDC808441E6 /* ReplaceMe.swift in Sources */,
+				77B543AE2A1215B6000C8BEF /* SKRouter.swift in Sources */,
 				CB03FA8A91B1ACEB8A34CA1C7D1655B5 /* SKRouter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

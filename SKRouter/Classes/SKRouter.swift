@@ -13,7 +13,7 @@ public class SKRouter {
     }
 
     class func registerURLPattern(_ pattern: String, toObjectHandler handler: @escaping SKRouterHandler) {
-        SKRouterCenter.shared.registerURLPattern(pattern, toObjectHandler: handler)
+        
     }
 
 
